@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+    line-height: normal;
+}
+.design-desktop {
+    width: 100%;
+    position: relative;
+    background-color: #fff;
+    height: auto;
+    overflow: hidden;
+    text-align: left;
+    font-size: 20px;
+    color: #3c3030;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* whole thing*/
+.header-content-footer {
+    position: relative;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 89px;
+}
+
+/* Header */
+.newsapi-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 40px;
+}
+.newsapi {
+    position: relative;
+    line-height: 140%;
+}
+.red-circle1{
+    width: 35px;
+    height: 35px;
+}
+
+/* Lines */
+.line-parent {
+    position: absolute;
+    top: 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2px;
+    width: 160%;
+}
+.line-div {
+    width: 160%;
+    position: relative;
+    border-top: 1px solid #3c3030;
+    box-sizing: border-box;
+    height: 1px;
+}
+
+/* Search Bar */
+.rectangle-parent {
+    width: 100%;
+    max-width: 327px;
+    position: relative;
+    height: 61px;
+}
+.rectangle-box {
+    position: absolute;
+    top: 0.5px;
+    left: -0.5px;
+    border: 1px solid #3c3030;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 268px;
+    height: 61px;
+    opacity: 0.3;
+}
+.search-icon {
+    padding-top: 16px;
+}
+.search {
+    position: absolute;
+    top: 17px;
+    left: 44px;
+    padding-top: 4px;
+    opacity: 0.8;
+}
+.go-square {
+    position: absolute;
+    top: 0px;
+    left: 266px;
+    border-radius: 1px;
+    background-color: #e84848;
+    border: 1px solid #e84848;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 17px 13px 16px 22px;
+    color: #fdfdfa;
+}
+
+/* Top News */
+.top-news-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    color: #d02424;
+    font-family: 'Times New Roman', Times, serif;
+    width: 85%;
+}
+.top-news-child {
+    position: relative;
+    letter-spacing: -0.02em;
+    line-height: 140%;
+    text-transform: uppercase;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+/* contents in grid*/
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 50px;
+    justify-items: center;
+    align-items: center;
+    color: #3c3030;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+}
+.all-images-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.all-images {
+    width: 100%;
+    position: relative;
+    height: auto;
+    object-fit: cover;
+}
+.head-line {
+    width: 100%;
+    position: relative;
+    font-size: 18px;
+    letter-spacing: -0.04em;
+    line-height: 120%;
+    font-weight: 600;
+    display: inline-block;
+}
+.description {
+    width: 100%;
+    position: relative;
+    line-height: 140%;
+    font-family: Inter;
+    display: inline-block;
+    opacity: 0.8;
+}
+.read-full-article-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.a {
+    position: relative;
+    text-decoration: underline;
+    font-weight: 700;
+    font-family: Inter;
+    color: #d02424;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 88px;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+.line-footer{
+    width: 320%;
+    border-top: 1px solid black;
+    box-sizing: border-box;
+    height: 1px;
+}
+.footer-child {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 8px;
+}
+.newsapi-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2px;
+}
+.small-circle-footer{
+    width: 10px;
+    height: 10px;
+}
+.footer-word {
+    position: relative;
+    font-size: 16px;
+    line-height: 140%;
+    font-family: 'Times New Roman', Times, serif;
+    top: 1.3px;
+    text-align: center;
+}
